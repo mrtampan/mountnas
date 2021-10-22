@@ -44,7 +44,7 @@ contohnya seperti ini: `mkdir /var/mountnas`
 ## Mounting FTP nya NAS ke server
 
 commandnya:
-curlftpfs ftphost path -o user=ftpUser:ftpPass,allow_other
+curlftpfs ftpHost path -o user=ftpUser:ftpPass,allow_other
 
 contohnya seperti ini: curlftpfs ftp.mrtampan.id /var/mountnas -o user=mrtampan:mrtampan12345,allow_other
 
